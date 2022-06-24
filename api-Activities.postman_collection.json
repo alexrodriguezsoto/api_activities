@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "5f6339ac-d5d0-401a-9265-b93a311f4a79",
+		"name": "api-Activities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11204499"
+	},
+	"item": [
+		{
+			"name": "get-activities",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain; v=1.0"
+					}
+				],
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
